@@ -1,0 +1,15 @@
+[Unit]
+Description=Left 4 Dead 2 Dedicated Server
+
+[Service]
+ExecStart=/home/l4d2/scripts/start-server.sh
+KillSignal=SIGINT
+User=l4d2
+Group=l4d2
+StandardInput=tty-force
+TTYVHangup=yes
+TTYPath=/dev/tty21
+TTYReset=yes
+
+[Install]
+WantedBy=graphical.target
