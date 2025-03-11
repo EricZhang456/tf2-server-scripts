@@ -1,0 +1,16 @@
+[Unit]
+Description=Team Fortress 2 Dedicated Server
+After=getty.service
+
+[Service]
+ExecStart=/home/tf2/scripts/start-server.sh
+KillSignal=SIGINT
+User=tf2
+Group=tf2
+StandardInput=tty-force
+TTYVHangup=yes
+TTYPath=/dev/tty20
+TTYReset=yes
+
+[Install]
+WantedBy=graphical.target
