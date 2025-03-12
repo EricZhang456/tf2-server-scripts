@@ -1,9 +1,9 @@
-ctf_convoy_v2
 cp_convoy
 cp_orange_x3
-pl_escort
 cp_tidal
+ctf_convoy_v2
 koth_traingrid
+pl_escort
 sd_hunted
 tc_meridian_rc3
 tc_strata_b1c
