@@ -2,8 +2,6 @@ This is the ericaftereric.top TF2 server.
 
 Type !reverts in chat to see reverted weapons.
 
-Note: It might take a map change for the server to start capturing replays. Old replays will be deleted on Sunday.
-
 Our map rotation is:
 - arena_suijin_rc2
 - cp_5staredown
