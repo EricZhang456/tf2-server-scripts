@@ -4,7 +4,7 @@ import re
 import sys
 
 if (int(sys.argv[2]) == 1):
-    print("\n")
+    print("\n",end="")
 
 with open(sys.argv[1], 'r') as file:
     for line in file:
