@@ -3,23 +3,3 @@ This is the ericaftereric.top TF2 server.
 Type !reverts in chat to see reverted weapons.
 
 Our map rotation is:
-- arena_suijin_rc2
-- cp_5staredown
-- cp_convoy
-- cp_orange_x3
-- cp_tidal_v4
-- cp_toy_fort_v3
-- ctf_2fort_classic_v1
-- ctf_atrophy_b4
-- ctf_convoy_v2
-- ctf_turbine_pro_b5
-- koth_rocktop_rc2
-- koth_traingrid
-- koth_trainsawlaser_rc2
-- pl_cactuscanyon_redux_m_rc2
-- pl_escort
-- pl_strider_v3
-- plr_highertower_extended
-- sd_hunted
-- tc_meridian_rc3
-- tc_strata_b1c
