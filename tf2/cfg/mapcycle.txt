@@ -38,6 +38,7 @@ pl_rainbowride_b7e
 pl_strider_v3
 pl_subzero_a1
 plr_highertower_extended
+plr_solitude_b1
 sd_hunted
 tc_meridian_rc3
 tc_strata_b1c
