@@ -18,6 +18,7 @@ ctf_2fort5_v2
 ctf_atrophy_b4
 ctf_badlands_2006_rc1
 ctf_convoy_v2
+ctf_fusion_b2
 ctf_npire_v3
 ctf_turbine_pro_b5
 ctf_vector_v1
