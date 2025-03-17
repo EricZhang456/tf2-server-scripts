@@ -90,7 +90,7 @@ public Action HandleVoteFail(UserMsg msg_id, BfRead msg, const int[] players, in
         int flags = g_cvNextMap.Flags;
         flags |= FCVAR_NOTIFY;
         g_cvNextMap.Flags = flags;
-        // re-enabled change map vote
+        // re-enables change map vote
         g_bChangeMapAllowed = true;
     }
 
