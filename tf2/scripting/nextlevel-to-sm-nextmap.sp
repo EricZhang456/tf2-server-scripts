@@ -9,7 +9,7 @@
 
 ConVar g_cvNextLevel, g_cvNextMap;
 
-bool g_bChangeLevelIssued = false;
+bool g_bChangeLevelIssued = false, g_bChangeMapAllowed = true;
 
 char g_sOldMap[MAP_LENGTH];
 
@@ -21,9 +21,11 @@ public Plugin myinfo = {
     url = "https://ericaftereric.top"
 }
 
+// currently doesn't work on servers with change map vote disabled
+
 public void OnPluginStart() {
     g_cvNextLevel = FindConVar("nextlevel");
-    g_cvNextMap = FindConVar("sm_nextmap")
+    g_cvNextMap = FindConVar("sm_nextmap");
 
     int flags = g_cvNextLevel.Flags;
     flags &= ~FCVAR_NOTIFY;
@@ -37,6 +39,7 @@ public void OnPluginStart() {
 
     HookUserMessage(GetUserMessageId("VoteFailed"), HandleVoteFail, false);
     HookUserMessage(GetUserMessageId("CallVoteFailed"), HandleVoteFail, false);
+    HookUserMessage(GetUserMessageId("VoteStart"), HandleVoteStart, false);
 //    HookUserMessage(GetUserMessageId("VotePass"), HandleVotePass, true);
 }
 
@@ -47,6 +50,7 @@ public void OnMapStart() {
     g_cvNextMap.Flags = flags;
 
     g_bChangeLevelIssued = false;
+    g_bChangeMapAllowed = true;
 }
 
 public void NextLevelToNextMap(ConVar convar, char[] oldValue, char[] newValue) {
@@ -62,7 +66,7 @@ public Action HandleCallVote(int client, const char[] command, int argc) {
     GetCmdArg(1, voteType, sizeof(voteType));
     GetCmdArg(2, details, sizeof(details));
 
-    if (StrEqual(voteType, "changelevel", false)) {
+    if (StrEqual(voteType, "changelevel", false) && g_bChangeMapAllowed) {
         // since we can't parse user messages anymore this is what we'll have to do
         g_bChangeLevelIssued = true;
         // stores the current next map
@@ -86,6 +90,8 @@ public Action HandleVoteFail(UserMsg msg_id, BfRead msg, const int[] players, in
         int flags = g_cvNextMap.Flags;
         flags |= FCVAR_NOTIFY;
         g_cvNextMap.Flags = flags;
+        // re-enabled change map vote
+        g_bChangeMapAllowed = true;
     }
 
     g_bChangeLevelIssued = false;
@@ -93,6 +99,13 @@ public Action HandleVoteFail(UserMsg msg_id, BfRead msg, const int[] players, in
     return Plugin_Continue;
 }
 
+public Action HandleVoteStart(UserMsg msg_id, BfRead msg, const int[] players, int playersNum, bool reliable, bool init) {
+    if (g_bChangeLevelIssued) {
+        g_bChangeMapAllowed = false;
+    }
+
+    return Plugin_Continue;
+}
 
 // i hope i can get back to this one day but votepass user message in tf2 seems to be broken rn
 /*
