@@ -45,6 +45,8 @@ public void OnMapStart() {
     int flags = g_cvNextMap.Flags;
     flags |= FCVAR_NOTIFY;
     g_cvNextMap.Flags = flags;
+
+    g_bChangeLevelIssued = false;
 }
 
 public void NextLevelToNextMap(ConVar convar, char[] oldValue, char[] newValue) {
