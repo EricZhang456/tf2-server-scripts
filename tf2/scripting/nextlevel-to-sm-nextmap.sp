@@ -40,6 +40,13 @@ public void OnPluginStart() {
 //    HookUserMessage(GetUserMessageId("VotePass"), HandleVotePass, true);
 }
 
+public void OnMapStart() {
+    // restores sm_nextmap's notify flag if needed
+    int flags = g_cvNextMap.Flags;
+    flags |= FCVAR_NOTIFY;
+    g_cvNextMap.Flags = flags;
+}
+
 public void NextLevelToNextMap(ConVar convar, char[] oldValue, char[] newValue) {
     char empty[10] = "";
     SetNextMap(newValue);
