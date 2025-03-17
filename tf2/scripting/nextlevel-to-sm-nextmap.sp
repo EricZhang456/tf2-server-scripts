@@ -4,12 +4,19 @@
 #include <bitbuffer>
 #include <string>
 
+#define VOTETYPE_LENGTH 50
+#define MAP_LENGTH 128
+
 ConVar g_sNextLevel;
 
+bool g_bChangeLevelIssued = false;
+
+char g_sOldMap[MAP_LENGTH];
+
 public Plugin myinfo = {
-    name = "nextlevel to sm_nextmap",
+    name = "TF2 Map Voting Fix",
     author = "Eric Zhang",
-    description = "Changes the nextlevel cvar to sm_nextmap.",
+    description = "Fixes TF2 built-in map voting with nextmap.",
     version = "1.0",
     url = "https://ericaftereric.top"
 }
@@ -25,7 +32,10 @@ public void OnPluginStart() {
         g_sNextLevel.AddChangeHook(NextLevelToNextMap);
     }
 
-    HookUserMessage(GetUserMessageId("VotePass"), HandleVotePass, true);
+    AddCommandListener(HandleCallVote, "callvote");
+
+    HookUserMessage(GetUserMessageId("VoteFailed"), HandleVoteFail, false);
+//    HookUserMessage(GetUserMessageId("VotePass"), HandleVotePass, true);
 }
 
 public void NextLevelToNextMap(ConVar convar, char[] oldValue, char[] newValue) {
@@ -34,10 +44,43 @@ public void NextLevelToNextMap(ConVar convar, char[] oldValue, char[] newValue) 
     g_sNextLevel.SetString(empty, false, false);
 }
 
+public Action HandleCallVote(int client, const char[] command, int argc) {
+    char voteType[VOTETYPE_LENGTH];
+    char details[MAP_LENGTH];
+
+    GetCmdArg(1, voteType, sizeof(voteType));
+    GetCmdArg(2, details, sizeof(details));
+
+    if (StrEqual(voteType, "changelevel", false)) {
+        // since we can't parse user messages anymore this is what we'll have to do
+        g_bChangeLevelIssued = true;
+        // stores the current next map
+        GetNextMap(g_sOldMap, sizeof(g_sOldMap));
+        // temporarily changes our next map until vote fails
+        SetNextMap(details);
+    }
+
+    return Plugin_Continue;
+}
+
+public Action HandleVoteFail(UserMsg msg_id, BfRead msg, const int[] players, int playersNum, bool reliable, bool init) {
+    if (g_bChangeLevelIssued) {
+        // changes our next level back for vote fail
+        SetNextMap(g_sOldMap)
+    }
+
+    g_bChangeLevelIssued = false;
+
+    return Plugin_Continue;
+}
+
+
+// i hope i can get back to this one day but votepass user message in tf2 seems to be broken rn
+/*
 public Action HandleVotePass(UserMsg msg_id, BfRead msg, const int[] players, int playersNum, bool reliable, bool init) {
-    char voteType[50];
-    char details[128];
-    
+    char voteType[VOTETYPE_LENGTH];
+    char details[MAP_LENGTH];
+
     msg.ReadByte();
     msg.ReadString(voteType, sizeof(voteType));
     msg.ReadString(details, sizeof(details));
@@ -49,3 +92,4 @@ public Action HandleVotePass(UserMsg msg_id, BfRead msg, const int[] players, in
         return Plugin_Continue;
     }
 }
+*/
