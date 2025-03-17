@@ -35,6 +35,7 @@ public void OnPluginStart() {
     AddCommandListener(HandleCallVote, "callvote");
 
     HookUserMessage(GetUserMessageId("VoteFailed"), HandleVoteFail, false);
+    HookUserMessage(GetUserMessageId("CallVoteFailed"), HandleVoteFail, false);
 //    HookUserMessage(GetUserMessageId("VotePass"), HandleVotePass, true);
 }
 
