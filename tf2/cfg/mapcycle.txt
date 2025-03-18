@@ -33,6 +33,7 @@ pl_cactuscanyon_redux_m_rc2
 pl_escort
 pl_haywire_rc5
 pl_minepit
+pl_quagmire
 pl_rainbowride_b7e
 pl_strider_v3
 pl_subzero_a1
