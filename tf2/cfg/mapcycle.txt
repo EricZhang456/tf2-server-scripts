@@ -39,7 +39,7 @@ pl_quagmire
 pl_rainbowride_b7e
 pl_strider_v3
 pl_subzero_a1
-plr_highertower_extended
+plr_hightower_extended
 plr_solitude_b1
 sd_hunted
 tc_meridian_rc3
