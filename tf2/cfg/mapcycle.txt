@@ -5,13 +5,16 @@ cp_5staredown
 cp_antiquity_b18
 cp_convoy
 cp_croissant_final
+cp_cynontrain_rc1
 cp_dust2
+cp_grand_canyon_v1
 cp_helmsdeep_v2
 cp_inferno
 cp_orange_x3
 cp_steel_classic
 cp_tidal_v4
 cp_toy_fort_v3
+cp_upland_rc4
 ctf_2bine_v1
 ctf_2fort_classic_v1
 ctf_2fort5_v2
