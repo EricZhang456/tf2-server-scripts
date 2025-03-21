@@ -26,6 +26,7 @@ ctf_npire_v3
 ctf_turbine_pro_b5
 ctf_vector_v1
 ctf_wildfire_rc
+koth_catbunker_alpha2
 koth_rocktop_rc2
 koth_sekhmet_b4
 koth_synthetic_rc6a
