@@ -9,8 +9,8 @@ cp_cynontrain_rc1
 cp_dust2
 cp_grand_canyon_v1
 cp_helmsdeep_v2
-cp_kino
 cp_inferno
+cp_kino
 cp_orange_x3
 cp_steel_classic
 cp_tidal_v4
