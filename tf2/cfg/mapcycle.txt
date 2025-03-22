@@ -9,6 +9,7 @@ cp_cynontrain_rc1
 cp_dust2
 cp_grand_canyon_v1
 cp_helmsdeep_v2
+cp_kino
 cp_inferno
 cp_orange_x3
 cp_steel_classic
@@ -38,6 +39,7 @@ pl_cactuscanyon_redux_m_rc2
 pl_escort
 pl_haywire_rc5
 pl_jinn_rc2
+pl_minecraft_redstone_s15
 pl_minepit
 pl_quagmire
 pl_rainbowride_b7e
