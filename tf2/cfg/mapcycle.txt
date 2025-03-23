@@ -8,6 +8,7 @@ cp_croissant_final
 cp_cynontrain_rc1
 cp_dust2
 cp_grand_canyon_v1
+cp_harbor
 cp_helmsdeep_v2
 cp_inferno
 cp_kino
@@ -22,11 +23,13 @@ ctf_2fort5_v2
 ctf_atrophy_b4
 ctf_badlands_2006_rc1
 ctf_convoy_v2
+ctf_facing_worlds_2011_fix
 ctf_fusion_b2
 ctf_npire_v3
 ctf_turbine_pro_b5
 ctf_vector_v1
 ctf_wildfire_rc
+koth_badwater
 koth_catbunker_alpha2
 koth_rocktop_rc2
 koth_sekhmet_b4
@@ -47,6 +50,7 @@ pl_strider_v3
 pl_subzero_a1
 plr_highertower
 plr_hightower_extended
+plr_pinecrest
 plr_solitude_b1
 sd_hunted
 tc_meridian_rc3
