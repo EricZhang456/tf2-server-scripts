@@ -3,3 +3,5 @@ This is the ericaftereric.top TF2 server.
 Type !reverts in chat to see reverted weapons. Old replay files will be deleted on Sunday.
 
 Go to ericaftereric.top/game to see the current map rotation and join the Steam group.
+
+Note: Some maps may have missing textures when running on Linux.
