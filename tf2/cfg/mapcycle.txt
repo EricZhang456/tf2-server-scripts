@@ -38,6 +38,7 @@ koth_synthetic_rc6a
 koth_traingrid
 koth_trainsawlaser_rc2
 koth_undergrove_rc1
+pl_beerbowl_rc1
 pl_cactuscanyon_redux_final2
 pl_cactuscanyon_redux_m_rc2
 pl_escort
