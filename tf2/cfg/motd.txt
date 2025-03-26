@@ -1,6 +1,10 @@
 This is the ericaftereric.top TF2 server.
 
-Type !reverts in chat to see reverted weapons. Old replay files will be deleted on Sunday.
+Type !reverts in chat to see reverted weapons. 
+Type !votespread to start a vote for toggling random damage spread.
+Type !votepush to start a vote for toggling pre-round damage push.
+
+Old replay files will be deleted on Sunday.
 
 Go to ericaftereric.top/game to see the current map rotation and join the Steam group.
 
