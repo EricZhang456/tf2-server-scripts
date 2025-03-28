@@ -32,8 +32,10 @@ ctf_vector_v1
 ctf_wildfire_rc
 koth_badwater
 koth_catbunker_alpha2
+koth_chasm_b1
 koth_rocktop_rc2
 koth_sekhmet_b4
+koth_slaughter_rc1
 koth_synthetic_rc6a
 koth_traingrid
 koth_trainsawlaser_rc2
@@ -42,12 +44,14 @@ pl_beerbowl_rc1
 pl_cactuscanyon_redux_final2
 pl_cactuscanyon_redux_m_rc2
 pl_escort
+pl_extinction_rc3
 pl_haywire_rc5
 pl_jinn_rc2
 pl_minecraft_redstone_s15
 pl_minepit
 pl_quagmire
 pl_rainbowride_b7e
+pl_rocksalt_v7
 pl_strider_v3
 pl_subzero_a1
 plr_highertower
@@ -56,4 +60,5 @@ plr_pinecrest
 plr_solitude_b1
 sd_hunted
 tc_meridian_rc3
+tc_spectre_b5
 tc_strata_b1c
