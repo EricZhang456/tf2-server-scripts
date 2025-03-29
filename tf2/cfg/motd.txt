@@ -1,6 +1,8 @@
 This is the ericaftereric.top TF2 server.
 
 Type !reverts in chat to see reverted weapons. 
+Type !nominate to add a map to the map nomination list.
+Type !rtv to vote for an early map switch.
 Type !votespread to start a vote for toggling random damage spread.
 Type !votepush to start a vote for toggling pre-round damage push.
 
