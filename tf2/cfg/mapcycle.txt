@@ -43,6 +43,7 @@ koth_undergrove_rc1
 pl_beerbowl_rc1
 pl_cactuscanyon_redux_final2
 pl_cactuscanyon_redux_m_rc2
+pl_deadwood
 pl_escort
 pl_extinction_rc3
 pl_haywire_rc5
@@ -52,6 +53,7 @@ pl_minepit
 pl_quagmire
 pl_rainbowride_b7e
 pl_rocksalt_v7
+pl_silverline_rc11c
 pl_strider_v3
 pl_subzero_a1
 plr_highertower
