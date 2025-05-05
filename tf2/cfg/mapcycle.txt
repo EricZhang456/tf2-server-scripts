@@ -13,6 +13,7 @@ cp_helmsdeep_v2
 cp_inferno
 cp_kino
 cp_orange_x3
+cp_shadowfacility_final
 cp_steel_classic
 cp_tidal_v4
 cp_toy_fort_v3
@@ -24,12 +25,14 @@ ctf_atrophy_b4
 ctf_badlands_2006_rc1
 ctf_catmar_beta2
 ctf_convoy_v2
+ctf_district_rc1
 ctf_facing_worlds_2011_fix
 ctf_fusion_b2
 ctf_npire_v3
 ctf_turbine_pro_b5
 ctf_vector_v1
 ctf_wildfire_rc
+dm_mariokart3_v1
 koth_badwater
 koth_catbunker_alpha2
 koth_chasm_b1
