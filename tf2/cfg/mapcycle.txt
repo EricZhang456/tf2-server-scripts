@@ -32,7 +32,6 @@ ctf_npire_v3
 ctf_turbine_pro_b5
 ctf_vector_v1
 ctf_wildfire_rc
-dm_mariokart3_v1
 koth_badwater
 koth_catbunker_alpha2
 koth_chasm_b1
@@ -43,6 +42,7 @@ koth_synthetic_rc6a
 koth_traingrid
 koth_trainsawlaser_rc2
 koth_undergrove_rc1
+mario_kart_2_v30
 pl_beerbowl_rc1
 pl_cactuscanyon_redux_final2
 pl_cactuscanyon_redux_m_rc2
