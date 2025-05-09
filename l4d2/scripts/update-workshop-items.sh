@@ -54,7 +54,7 @@ EOF
 
 while IFS= read -r line; do
     echo "workshop_download_item 550 ${line}" >> "${WORKING_DIR}/tmp/steamcmd_script.txt"
-done < "${WORKSHOP_ITEMS_TXT}"
+done < <(grep -v "^#\|^$" "${WORKSHOP_ITEMS_TXT}")
 
 echo 'quit' >> "${WORKING_DIR}/tmp/steamcmd_script.txt"
 
@@ -66,8 +66,6 @@ while IFS= read -r line; do
     cd $line
     mv * "${L4D2_PATH}/left4dead2/addons/workshop/${line}.vpk"
     cd ..
-done < "${WORKSHOP_ITEMS_TXT}"
+done < <(grep -v "^#\|^$" "${WORKSHOP_ITEMS_TXT}")
 
 rm -r "${WORKING_DIR}/tmp/"
-
-echo 'Restart Left 4 Dead 2 dedicated server to load the newly installed workshop items.'
