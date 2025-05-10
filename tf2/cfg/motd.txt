@@ -5,7 +5,7 @@ Type !nominate to add a map to the map nomination list.
 Type !rtv to vote for an early map switch.
 Type !votespread to start a vote for toggling random damage spread.
 
-Old replay files will be deleted on Sunday.
+Old replay files will be deleted on Wednesday.
 
 Go to ericaftereric.top/game to see the current map rotation and join the Steam group.
 
