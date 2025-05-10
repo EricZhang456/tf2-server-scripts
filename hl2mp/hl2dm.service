@@ -1,0 +1,15 @@
+[Unit]
+Description=Half-Life 2: Deathmatch Dedicated Server
+
+[Service]
+ExecStart=/home/hl2mp/scripts/start-server.sh
+KillSignal=SIGINT
+User=hl2mp
+Group=hl2mp
+StandardInput=tty-force
+TTYVHangup=yes
+TTYPath=/dev/tty22
+TTYReset=yes
+
+[Install]
+WantedBy=graphical.target
