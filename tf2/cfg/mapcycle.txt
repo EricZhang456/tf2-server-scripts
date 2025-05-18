@@ -28,9 +28,11 @@ ctf_convoy_v2
 ctf_district_rc1
 ctf_facing_worlds_2011_fix
 ctf_fusion_b2
+ctf_lulz_v2
 ctf_npire_v3
 ctf_turbine_pro_b5
 ctf_vector_v1
+ctf_vikings_final
 ctf_wildfire_rc
 koth_badwater
 koth_catbunker_alpha2
