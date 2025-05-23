@@ -65,6 +65,7 @@ plr_highertower
 plr_hightower_extended
 plr_pinecrest
 plr_solitude_b1
+restless_plaza_b2
 sd_hunted
 tc_meridian_rc3
 tc_spectre_b5
