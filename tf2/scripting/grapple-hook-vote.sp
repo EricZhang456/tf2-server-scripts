@@ -35,6 +35,7 @@ public void OnPluginStart() {
 }
 
 public void OnMapStart() {
+    ResetConVar(g_cvGrapplingHookEnabled);
     g_iLastGrapplingHookVoteTime = 0;
     g_bServerWaitingForPlayers = false;
 }
