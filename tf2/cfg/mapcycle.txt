@@ -1,5 +1,6 @@
 arena_backlot_rc2
 arena_hardhat_b2a
+arena_mach2
 arena_suijin_rc2
 cp_5staredown
 cp_antiquity_b18
