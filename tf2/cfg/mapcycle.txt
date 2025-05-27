@@ -3,6 +3,8 @@ arena_hardhat_b2a
 arena_suijin_rc2
 cp_5staredown
 cp_antiquity_b18
+cp_boulder_v5
+cp_busytown
 cp_convoy
 cp_croissant_final
 cp_cynontrain_rc1
@@ -12,6 +14,8 @@ cp_harbor
 cp_helmsdeep_v2
 cp_inferno
 cp_kino
+cp_lazytown
+cp_oilfield_v2
 cp_orange_x3
 cp_shadowfacility_final
 cp_steel_classic
@@ -19,12 +23,14 @@ cp_tidal_v4
 cp_toy_fort_v3
 cp_upland_rc4
 ctf_2bine_v1
-ctf_2fort_classic_v1
 ctf_2fort5_v2
+ctf_2fort_classic_v1
+ctf_aerospace_b4
 ctf_atrophy_b4
 ctf_badlands_2006_rc1
 ctf_catmar_beta2
 ctf_convoy_v2
+ctf_cruise_b4b
 ctf_district_rc1
 ctf_facing_worlds_2011_fix
 ctf_fusion_b2
@@ -51,6 +57,7 @@ pl_cactuscanyon_redux_m_rc2
 pl_deadwood
 pl_escort
 pl_extinction_rc3
+pl_halfacre
 pl_haywire_rc5
 pl_jinn_rc2
 pl_minecraft_redstone_s15
@@ -61,6 +68,7 @@ pl_rocksalt_v7
 pl_silverline_rc11c
 pl_strider_v3
 pl_subzero_a1
+pl_timbermill_rc4
 plr_highertower
 plr_hightower_extended
 plr_pinecrest
