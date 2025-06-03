@@ -27,9 +27,7 @@ public void OnPluginStart() {
     g_cvNextLevel = FindConVar("nextlevel");
     g_cvNextMap = FindConVar("sm_nextmap");
 
-    int flags = g_cvNextLevel.Flags;
-    flags &= ~FCVAR_NOTIFY;
-    g_cvNextLevel.Flags = flags;
+    g_cvNextLevel.Flags &= ~FCVAR_NOTIFY;
 
     if (g_cvNextLevel != null) {
         g_cvNextLevel.AddChangeHook(NextLevelToNextMap);
@@ -45,18 +43,15 @@ public void OnPluginStart() {
 
 public void OnMapStart() {
     // restores sm_nextmap's notify flag if needed
-    int flags = g_cvNextMap.Flags;
-    flags |= FCVAR_NOTIFY;
-    g_cvNextMap.Flags = flags;
+    g_cvNextMap.Flags |= FCVAR_NOTIFY;
 
     g_bChangeLevelIssued = false;
     g_bChangeMapAllowed = true;
 }
 
 public void NextLevelToNextMap(ConVar convar, char[] oldValue, char[] newValue) {
-    char empty[10] = "";
     SetNextMap(newValue);
-    g_cvNextLevel.SetString(empty, false, false);
+    g_cvNextLevel.SetString("");
 }
 
 public Action HandleCallVote(int client, const char[] command, int argc) {
@@ -72,9 +67,7 @@ public Action HandleCallVote(int client, const char[] command, int argc) {
         // stores the current next map
         GetNextMap(g_sOldMap, sizeof(g_sOldMap));
         // strips sm_nextmap's notify flag
-        int flags = g_cvNextMap.Flags;
-        flags &= ~FCVAR_NOTIFY;
-        g_cvNextMap.Flags = flags;
+        g_cvNextMap.Flags &= ~FCVAR_NOTIFY;
         // temporarily changes our next map until vote fails
         SetNextMap(details);
     }
@@ -87,9 +80,7 @@ public Action HandleVoteFail(UserMsg msg_id, BfRead msg, const int[] players, in
         // changes our next level back for vote fail
         SetNextMap(g_sOldMap);
         // adds back notify to sm_nextmap
-        int flags = g_cvNextMap.Flags;
-        flags |= FCVAR_NOTIFY;
-        g_cvNextMap.Flags = flags;
+        g_cvNextMap.Flags |= FCVAR_NOTIFY;
         // re-enables change map vote
         g_bChangeMapAllowed = true;
     }
