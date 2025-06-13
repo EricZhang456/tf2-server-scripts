@@ -15,6 +15,7 @@ cp_harbor
 cp_helmsdeep_v2
 cp_inferno
 cp_kino
+cp_labor
 cp_lazytown
 cp_oilfield_v2
 cp_orange_x3
@@ -37,6 +38,7 @@ ctf_facing_worlds_2011_fix
 ctf_fusion_b2
 ctf_lulz_v2
 ctf_npire_v3
+ctf_stronghold_b5
 ctf_turbine_pro_b5
 ctf_vector_v1
 ctf_vikings_final
@@ -63,6 +65,7 @@ pl_haywire_rc5
 pl_jinn_rc2
 pl_minecraft_redstone_s15
 pl_minepit
+pl_pit
 pl_quagmire
 pl_rainbowride_b7e
 pl_rocksalt_v7
@@ -74,6 +77,7 @@ plr_highertower
 plr_hightower_extended
 plr_pinecrest
 plr_solitude_b1
+rd_asteroid_redux_b1
 restless_plaza_b2
 sd_hunted
 tc_meridian_rc3
