@@ -15,7 +15,6 @@ cp_harbor
 cp_helmsdeep_v2
 cp_inferno
 cp_kino
-cp_labor
 cp_lazytown
 cp_oilfield_v2
 cp_orange_x3
