@@ -9,3 +9,4 @@ mv -v plugins/reverts.smx /home/tf2/tf2/tf/addons/sourcemod/plugins/
 rsync -va translations/* /home/tf2/tf2/tf/addons/sourcemod/translations/
 cd ..
 rm -r tmp
+curl https://raw.githubusercontent.com/EricZhang456/tf2-server-scripts/refs/heads/master/tf2/cfg/reverts.cfg > /home/tf2/tf2/tf/cfg/sourcemod/reverts.cfg
