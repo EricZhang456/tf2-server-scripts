@@ -1,3 +1,6 @@
 This is the ericaftereric.top Counter-Strike: Source serer.
 
+Type !nominate to add a map to the map nomination list.
+Type !rtv to vote for an early map switch.
+
 Go to ericaftereric.top/game to join the Steam group and check out our other game servers.
