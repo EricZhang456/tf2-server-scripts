@@ -7,12 +7,17 @@ cs_office
 de_aztec
 de_cbble
 de_chateau
+de_cpl_mill
+de_cpl_strike
 de_dust
 de_dust2
+de_forest
 de_inferno
 de_nuke
 de_piranesi
 de_port
 de_prodigy
+de_season
 de_tides
 de_train
+de_vertigo
