@@ -1,0 +1,15 @@
+[Unit]
+Description=Counter-Strike: Source Dedicated Server
+
+[Service]
+ExecStart=/home/css/scripts/start-server.sh
+KillSignal=SIGINT
+User=css
+Group=css
+StandardInput=tty-force
+TTYVHangup=yes
+TTYPath=/dev/tty23
+TTYReset=yes
+
+[Install]
+WantedBy=graphical.target
