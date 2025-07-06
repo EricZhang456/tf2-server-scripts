@@ -14,3 +14,5 @@ cd ..
 cd ..
 
 rm -rf tmp
+
+cp ~l4d2/l4d2/left4dead2/addons/sourcemod/configs/admins_simple.ini.bak ~l4d2/l4d2/left4dead2/addons/sourcemod/configs/admins_simple.ini

@@ -14,3 +14,5 @@ cd ..
 cd ..
 
 rm -rf tmp
+
+cp ~hl2mp/hl2mp/hl2mp/addons/sourcemod/configs/admins_simple.ini.bak ~hl2mp/hl2mp/hl2mp/addons/sourcemod/configs/admins_simple.ini
