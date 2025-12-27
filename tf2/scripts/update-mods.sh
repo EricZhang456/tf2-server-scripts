@@ -1,4 +1,4 @@
 #!/bin/sh
 
 ./update-metamod.sh
-./update-souremod.sh
+./update-sourcemod.sh
