@@ -1,0 +1,66 @@
+[
+    {
+        "id": "ArmsRace",
+        "title": "Arms Race",
+        "game_type": 1,
+        "game_mode": 0,
+        "mapgroup": "mg_armsrace",
+        "maplist": [
+            "de_lake",
+            "de_stmarc",
+            "de_safehouse",
+            "ar_shoots",
+            "ar_baggage",
+            "ar_lunacy",
+            "ar_monastery"
+        ]
+    },
+    {
+        "id": "Demolition",
+        "title": "Demolition",
+        "game_type": 1,
+        "game_mode": 1,
+        "mapgroup": "mg_demolition",
+        "maplist": [
+            "de_lake",
+            "de_stmarc",
+            "de_sugarcane",
+            "de_bank",
+            "de_safehouse",
+            "de_shortdust"
+        ]
+    },
+    {
+        "id": "Retakes",
+        "title": "Retakes",
+        "game_mode": 0,
+        "game_type": 0,
+        "skirmish_id": 12,
+        "mapgroup": "mg_skirmish_retakes",
+        "maplist": [
+            "de_inferno",
+            "de_mirage",
+            "de_dust2",
+            "de_nuke",
+            "de_overpass",
+            "de_train",
+            "de_vertigo",
+            "de_ancient"
+        ]
+    },
+    {
+        "id": "FlyingScoutsman",
+        "title": "Flying Scoutsman",
+        "game_type": 0,
+        "game_mode": 0,
+        "skirmish_id": 3,
+        "mapgroup": "mg_skirmish_flyingscoutsman",
+        "maplist": [
+            "de_lake",
+            "de_safehouse",
+            "ar_dizzy",
+            "ar_lunacy",
+            "ar_shoots"
+        ]
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "id": "CasualDefusal",
+        "title": "Casual (Defusal)",
+        "game_type": 0,
+        "game_mode": 0,
+        "mapgroup": "mg_eae_defusal"
+    },
+    {
+        "id": "CasualHostage",
+        "title": "Casual (Hostage)",
+        "game_type": 0,
+        "game_mode": 0,
+        "mapgroup": "mg_eae_hostage"
+    },
+    {
+        "id": "CompetitiveDefusal",
+        "title": "Competitive (Defusal)",
+        "game_type": 0,
+        "game_mode": 1,
+        "mapgroup": "mg_eae_defusal"
+    },
+    {
+        "id": "CompetitiveShortHostage",
+        "title": "Competitive (Hostage) (Short Match)",
+        "game_type": 0,
+        "game_mode": 1,
+        "game_mode_flags": 32,
+        "mapgroup": "mg_eae_hostage"
+    },
+    {
+        "id": "FFADefusal",
+        "title": "Free-for-all (Defusal)",
+        "game_type": 1,
+        "game_mode": 2,
+        "game_mode_flags": 32,
+        "mapgroup": "mg_eae_defusal"
+    },
+    {
+        "id": "FFAHostage",
+        "title": "Free-for-all (Hostage)",
+        "game_type": 1,
+        "game_mode": 2,
+        "game_mode_flags": 32,
+        "mapgroup": "mg_eae_hostage"
+    },
+    {
+        "id": "TDMDefusal",
+        "title": "Team Deathmatch (Defusal)",
+        "game_type": 1,
+        "game_mode": 2,
+        "game_mode_flags": 4,
+        "mapgroup": "mg_eae_defusal"
+    },
+    {
+        "id": "TDMHostage",
+        "title": "Team Deathmatch (Hostage)",
+        "game_type": 1,
+        "game_mode": 2,
+        "game_mode_flags": 4,
+        "mapgroup": "mg_eae_hostage"
+    }
+]
