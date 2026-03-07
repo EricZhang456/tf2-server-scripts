@@ -1,0 +1,72 @@
+"GameModes_Server.txt"
+{
+    "gameTypes"
+    {
+        "classic"
+        {
+            "gameModes"
+            {
+                "casual"
+                {
+                    "mapgroupsMP"
+                    {
+                        "mg_eae_defusal"    ""
+                        "mg_eae_hostage"    ""
+                    }
+                }
+                "competitive"
+                {
+                    "mapgroupsMP"
+                    {
+                        "mg_eae_defusal"    ""
+                        "mg_eae_hostage"    ""
+                    }
+                }
+            }
+        }
+    }
+    "mapgroups"
+    {
+        "mg_eae_defusal"
+        {
+            "name"  "mg_eae_defusal"
+            "maps"
+            {
+                "de_ancient"        ""
+                "de_anubis"     ""
+                "de_aztec"      ""
+                "de_basalt"     ""
+                "de_blackgold"      ""
+                "de_cache"      ""
+                "de_canals"     ""
+                "de_cbble"      ""
+                "de_chinatown"      ""
+                "de_dust"       ""
+                "de_dust2"      ""
+                "de_inferno"        ""
+                "de_mirage"     ""
+                "de_nuke"       ""
+                "de_overpass"       ""
+                "de_season"     ""
+                "de_studio"     ""
+                "de_subzero"        ""
+                "de_train"      ""
+                "de_tuscan"     ""
+                "de_vertigo"        ""
+                "de_zoo"        ""
+            }
+        }
+        "mg_eae_hostage"
+        {
+            "name"  "mg_eae_hostage"
+            "maps"
+            {
+                "cs_agency"     ""
+                "cs_militia"    ""
+                "cs_office"     ""
+                "cs_italy"      ""
+                "cs_assault"    ""
+            }
+        }
+    }
+}
