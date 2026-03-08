@@ -21,6 +21,21 @@
         "mapgroup": "mg_eae_defusal"
     },
     {
+        "id": "CompetitiveHostage",
+        "title": "Competitive (Hostage)",
+        "game_type": 0,
+        "game_mode": 1,
+        "mapgroup": "mg_eae_hostage"
+    },
+    {
+        "id": "CompetitiveShortDefusal",
+        "title": "Competitive (Defusal) (Short Match)",
+        "game_type": 0,
+        "game_mode": 1,
+        "game_mode_flags": 32,
+        "mapgroup": "mg_eae_defusal"
+    },
+    {
         "id": "CompetitiveShortHostage",
         "title": "Competitive (Hostage) (Short Match)",
         "game_type": 0,
@@ -59,5 +74,12 @@
         "game_mode": 2,
         "game_mode_flags": 4,
         "mapgroup": "mg_eae_hostage"
+    },
+    {
+        "id": "Wingman",
+        "title": "Wingman",
+        "game_type": 0,
+        "game_mode": 2,
+        "mapgroup": "mg_eae_wingman"
     }
 ]
