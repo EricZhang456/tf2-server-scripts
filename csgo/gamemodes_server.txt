@@ -42,6 +42,8 @@
                 "de_ancient"        ""
                 "de_anubis"     ""
                 "de_aztec"      ""
+                "de_basalt"     ""
+                "de_blackgold"      ""
                 "de_cache"      ""
                 "de_canals"     ""
                 "de_cbble"      ""
@@ -52,9 +54,13 @@
                 "de_mirage"     ""
                 "de_nuke"       ""
                 "de_overpass"       ""
+                "de_season"     ""
+                "de_studio"     ""
+                "de_subzero"        ""
                 "de_train"      ""
                 "de_tuscan"     ""
                 "de_vertigo"        ""
+                "de_zoo"        ""
             }
         }
         "mg_eae_hostage"
