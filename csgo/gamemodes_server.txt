@@ -29,6 +29,14 @@
                         "mg_eae_wingman"    ""
                     }
                 }
+                "skirmish"
+                {
+                    "mapgroupsMP"
+                    {
+                        "mg_eae_defusal"    ""
+                        "mg_eae_hostage"    ""
+                    }
+                }
             }
         }
     }

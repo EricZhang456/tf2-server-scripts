@@ -81,5 +81,71 @@
         "game_type": 0,
         "game_mode": 2,
         "mapgroup": "mg_eae_wingman"
+    },
+    {
+        "id": "HeadshotDefusal",
+        "title": "Boom! Headshot! (FFA) (Defusal)",
+        "game_type": 1,
+        "game_mode": 2,
+        "game_mode_flags": 32,
+        "skirmish_id": 6,
+        "mapgroup": "mg_eae_defusal"
+    },
+    {
+        "id": "HeadshotHostage",
+        "title": "Boom! Headshot! (FFA) (Hostage)",
+        "game_type": 1,
+        "game_mode": 2,
+        "game_mode_flags": 32,
+        "skirmish_id": 6,
+        "mapgroup": "mg_eae_hostage"
+    },
+    {
+        "id": "HunterDefusal",
+        "title": "Hunter-Gatherers (TDM) (Defusal)",
+        "game_type": 1,
+        "game_mode": 2,
+        "skirmish_id": 7,
+        "mapgroup": "mg_eae_defusal"
+    },
+    {
+        "id": "HunterHostage",
+        "title": "Hunter-Gatherers (TDM) (Hostage)",
+        "game_type": 1,
+        "game_mode": 2,
+        "skirmish_id": 7,
+        "mapgroup": "mg_eae_hostage"
+    },
+    {
+        "id": "StabStabZapDefusal",
+        "title": "Stab Stab Zap (Casual) (Defusal)",
+        "game_type": 0,
+        "game_mode": 0,
+        "skirmish_id": 1,
+        "mapgroup": "mg_eae_defusal"
+    },
+    {
+        "id": "StabStabZapHostage",
+        "title": "Stab Stab Zap (Casual) (Hostage)",
+        "game_type": 0,
+        "game_mode": 0,
+        "skirmish_id": 1,
+        "mapgroup": "mg_eae_hostage"
+    },
+    {
+        "id": "TriggerDisciplineDefusal",
+        "title": "Trigger Discipline (Casual) (Defusal)",
+        "game_type": 0,
+        "game_mode": 0,
+        "skirmish_id": 4,
+        "mapgroup": "mg_eae_defusal"
+    },
+    {
+        "id": "TriggerDisciplineHostage",
+        "title": "Trigger Discipline (Casual) (Hostage)",
+        "game_type": 0,
+        "game_mode": 0,
+        "skirmish_id": 4,
+        "mapgroup": "mg_eae_hostage"
     }
 ]
