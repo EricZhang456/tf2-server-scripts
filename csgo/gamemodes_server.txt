@@ -29,6 +29,34 @@
                         "mg_eae_wingman"    ""
                     }
                 }
+                "scrimcomp5v5"
+                {
+                    "mapgroupsMP"
+                    {
+                        "mg_eae_defusal"    ""
+                        "mg_eae_hostage"    ""
+                    }
+                }
+            }
+        }
+        "gungame"
+        {
+            "gameModes"
+            {
+                "deathmatch"
+                {
+                    "mapgroupsMP"
+                    {
+                        "mg_eae_defusal"    ""
+                        "mg_eae_hostage"    ""
+                    }
+                }
+            }
+        }
+        "skirmish"
+        {
+            "gameModes"
+            {
                 "skirmish"
                 {
                     "mapgroupsMP"
