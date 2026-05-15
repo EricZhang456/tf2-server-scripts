@@ -12,7 +12,7 @@ unzip artifact.zip
 mv -v gamedata/reverts.txt /home/tf2/tf2/tf/addons/sourcemod/gamedata/reverts.txt
 mv -v gamedata/memorypatch_reverts.txt /home/tf2/tf2/tf/addons/sourcemod/gamedata/memorypatch_reverts.txt
 mv -v plugins/reverts.smx /home/tf2/tf2/tf/addons/sourcemod/plugins/
-rsync -va --include="reverts.phrases*" --exclude="*" translations/* /home/tf2/tf2/tf/addons/sourcemod/translations/
+rsync -va --include="*/" --include="reverts.phrases*" --exclude="*" translations/* /home/tf2/tf2/tf/addons/sourcemod/translations/
 cd ..
 
 rm -r tmp
