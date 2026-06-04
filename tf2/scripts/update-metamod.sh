@@ -1,14 +1,12 @@
 #!/bin/sh
 
-LATEST_METAMOD=$(curl https://mms.alliedmods.net/mmsdrop/1.12/mmsource-latest-linux)
-
 mkdir tmp
 
 cd tmp
-wget https://mms.alliedmods.net/mmsdrop/1.12/$LATEST_METAMOD
+wget -O mms.tar.gz https://www.metamodsource.net/latest.php?os=linux&version=1.12
 mkdir mm
 cd mm
-tar xvf ../$LATEST_METAMOD
+tar xvf ../mms.tar.gz
 rsync -va * /home/tf2/tf2/tf/
 cd ..
 cd ..
