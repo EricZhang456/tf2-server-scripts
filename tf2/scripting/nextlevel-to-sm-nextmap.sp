@@ -1,8 +1,4 @@
-#include <nextmap>
-#include <convars>
-#include <usermessages>
-#include <bitbuffer>
-#include <string>
+#include <sourcemod>
 
 #define VOTETYPE_LENGTH 50
 #define MAP_LENGTH 128
